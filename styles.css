@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+img {
+    width: 400px;
+}
+
+#activity-img {
+    width: 250px;
+    border: 5px solid #bc4749; 
+    border-radius: 30px;
+}
+
+h3 {
+    font-size: 2.0em;
+}
+
+.p-title {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 0px;
+}
+
+.p-perex {
+    font-weight: 100;
+    width: 300px;
+}
+
+#adamov-logo {
+    width: 300px;
+}
+
+#title-text {
+    font-size: 5.1em;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+#subtitle-text {
+    font-size: 3.0em;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.header {
+    padding-top: 60px;
+    background-image: url("images/fromwindow.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+.main-section {
+    background: #f2e8cf;
+    padding: 10px 0 40px 0;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.footer {
+    margin: 50px 0 60px 0;
+}
+
+.avatar {
+    width: 150px;
+    border: 4px solid #6A994E;;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A7C957;
+    color: #386641;
+    border-bottom: 6px solid #6A994E;
+    border-radius: 20px;
+}
+
+.card h3, h4 {
+    margin: 0;
+}
+
+.event-section {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 0px; 
+    padding-top: 0px;
+    background-image: url("images/curch.jpg");
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+}
+
+#event-title-text {
+    font-size: 5.1em;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+#event-subtitle-text {
+    font-size: 3.0em;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 30px;
+}
+
+#visit-btn a {
+    background: white;
+    border-radius: 15px;
+    padding: 0 20px;
+    text-shadow: none;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+#visit-btn a:hover {
+    background: black;
+    color: white;
+}
