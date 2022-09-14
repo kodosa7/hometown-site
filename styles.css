@@ -85,7 +85,7 @@ h3 {
 
 .card {
     width: 400px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
